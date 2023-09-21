@@ -12,11 +12,12 @@ void draw()
 {
  stroke(255, 255, 0);
  while(endY <= 1000){
-   endX = startX + (int)((Math.random()*10)-5);
-   endY = startY + (int)(Math.random()*4);
-   line(startX, startY, endX, endY);
-   startX = endX;
-   startY = endY;
+  endX = startX + (int)((Math.random()*10)-5);
+  endY = startY + (int)(Math.random()*4);
+  line(startX, startY, endX, endY);
+  startX = endX;
+  startY = endY;
+  background(50, 50, 50);
  }
  startX = 500;
  startY = 0;
