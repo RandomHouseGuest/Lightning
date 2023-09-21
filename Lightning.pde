@@ -10,9 +10,9 @@ void setup()
 }
 void draw()
 {
+background(50, 50, 50);
  stroke(255, 255, 0);
  while(endY <= 1000){
-  background(50, 50, 50);
   endX = startX + (int)((Math.random()*10)-5);
   endY = startY + (int)(Math.random()*4);
   line(startX, startY, endX, endY);
@@ -24,6 +24,7 @@ void draw()
  endX = 550;
  endY = 150;
 }
+background(0, 0, 0);
 void mousePressed()
 {
  redraw();
