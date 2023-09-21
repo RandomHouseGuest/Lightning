@@ -10,7 +10,7 @@ void setup()
 }
 void draw()
 {
-background(50, 50, 50);
+background(0, 0, 0);
  stroke(255, 255, 0);
  while(endY <= 1000){
   endX = startX + (int)((Math.random()*10)-5);
